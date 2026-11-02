@@ -1,0 +1,20 @@
+/* Barber Point: azul royal + muito branco */
+:root{--bg:#ffffff;--soft:#f3f6ff;--cd:#ffffff;--tx:#0f1b3d;--mu:#5b6785;--ac:#1d4ed8;--ac2:#163fb3;--ax:#ffffff;--bd:#dbe3f6;--sh:0 1px 3px rgba(29,78,216,.08)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif}
+.w{max-width:760px;margin:0 auto;padding:14px}
+header{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;padding-bottom:10px;border-bottom:3px solid var(--ac)}
+h1{font:700 22px Georgia,serif;margin:0;letter-spacing:.5px;color:var(--tx)}h1 span{color:var(--ac)}h2{font-size:15px;margin:18px 0 8px;color:var(--ac2)}
+.c{background:var(--cd);border:1px solid var(--bd);border-radius:12px;padding:14px;margin-bottom:10px;box-shadow:var(--sh)}
+.ch{display:flex;flex-wrap:wrap;gap:6px}button,input,a{font:inherit;color:var(--tx)}
+.b{border:1px solid var(--bd);background:var(--cd);border-radius:8px;padding:8px 12px;cursor:pointer;text-decoration:none;display:inline-block}
+.b:hover{border-color:var(--ac)}
+.b.on{background:var(--ac);color:var(--ax);border-color:var(--ac);font-weight:600}.b.x{opacity:.4;text-decoration:line-through}.b:disabled{opacity:.3}
+.p{background:var(--ac);color:var(--ax);border:0;border-radius:8px;padding:10px 16px;font-weight:700;cursor:pointer}.p:hover{background:var(--ac2)}
+.s{font-size:13px;padding:6px 10px}.g{background:none;color:var(--mu)}
+input{width:100%;padding:10px;margin:4px 0 10px;border:1px solid var(--bd);border-radius:8px;background:var(--soft)}
+input:focus{outline:2px solid var(--ac);background:#fff}
+.gr{display:grid;grid-template-columns:repeat(auto-fill,minmax(74px,1fr));gap:6px}.t{display:flex;gap:6px;margin-bottom:10px}.t .b{flex:1}
+.m{color:var(--mu);font-size:13px}.tag{font-size:12px;padding:2px 10px;border-radius:99px;background:var(--soft);color:var(--ac2);border:1px solid var(--bd);font-weight:600}
+.al{background:var(--soft);border:1px solid var(--ac);border-left-width:4px;border-radius:10px;padding:10px;margin-bottom:8px}
+.r{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;align-items:center}
+.k{display:grid;grid-template-columns:repeat(auto-fit,minmax(105px,1fr));gap:8px;margin-bottom:10px}.k div{text-align:center}.k b{font-size:20px;display:block;color:var(--ac)}

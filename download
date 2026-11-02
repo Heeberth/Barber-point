@@ -1,0 +1,3 @@
+db/barberpoint.db
+__pycache__/
+*.pyc
